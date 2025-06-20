@@ -1,0 +1,23 @@
+uuid: d8f47a01-52d3-4666-8095-52eee0f4a8df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.project
+    - field.storage.block_content.field_project_team
+  module:
+    - link
+id: block_content.project.field_project_team
+field_name: field_project_team
+entity_type: block_content
+bundle: project
+label: 'Project Team'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

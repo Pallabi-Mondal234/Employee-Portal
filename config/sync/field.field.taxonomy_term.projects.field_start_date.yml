@@ -1,0 +1,21 @@
+uuid: 86f09252-4e4c-4183-b1fa-ac2244f8f0d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_start_date
+    - taxonomy.vocabulary.projects
+  module:
+    - datetime
+id: taxonomy_term.projects.field_start_date
+field_name: field_start_date
+entity_type: taxonomy_term
+bundle: projects
+label: 'Start date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

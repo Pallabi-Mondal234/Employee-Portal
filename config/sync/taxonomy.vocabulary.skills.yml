@@ -1,0 +1,15 @@
+uuid: 2444c125-11fb-4058-bdd8-1619400f661e
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy_unique
+third_party_settings:
+  taxonomy_unique:
+    enabled: true
+    message: 'Term "%term" already exists in vocabulary "%vocabulary".'
+name: Skills
+vid: skills
+description: null
+weight: 0
+new_revision: false

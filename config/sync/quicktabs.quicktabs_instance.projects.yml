@@ -1,0 +1,61 @@
+uuid: cbbc8fff-76b0-4801-9e5d-a9d3af04bb40
+langcode: en
+status: true
+dependencies: {  }
+id: projects
+label: Projects
+renderer: quick_tabs
+hide_empty_tabs: false
+default_tab: 9999
+options:
+  quick_tabs:
+    ajax: false
+    class: ''
+    style: pamela
+configuration_data:
+  -
+    title: Drupal_site
+    weight: -10
+    type: view_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      block_content:
+        options:
+          bid: 'views_block:test-block_1'
+          block_title: Drupal_site
+          display_title: true
+      view_content:
+        options:
+          vid: test
+          display: block_1
+          args: '16'
+      qtabs_content:
+        options:
+          machine_name: drupal_training
+  -
+    title: 'Drupal Training'
+    weight: -9
+    type: view_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      block_content:
+        options:
+          bid: 'views_block:test-block_1'
+          block_title: 'Drupal Training'
+          display_title: true
+      view_content:
+        options:
+          vid: test
+          display: block_1
+          args: '15'
+      qtabs_content:
+        options:
+          machine_name: drupal_training

@@ -1,0 +1,8 @@
+uuid: d2e39405-73cc-495c-8143-64e9e78d2741
+langcode: en
+status: true
+dependencies: {  }
+id: admin_block
+label: 'Admin Block'
+revision: false
+description: null

@@ -1,0 +1,19 @@
+uuid: 12d64efd-20c6-4afc-b070-5ac99d1937f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_company
+    - paragraphs.paragraphs_type.background
+id: paragraph.background.field_company
+field_name: field_company
+entity_type: paragraph
+bundle: background
+label: Company
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

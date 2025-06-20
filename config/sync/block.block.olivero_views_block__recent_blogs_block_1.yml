@@ -1,0 +1,30 @@
+uuid: 65277729-2a2a-4a1c-8df7-8bda729a54d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_blogs
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__recent_blogs_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:recent_blogs-block_1'
+settings:
+  id: 'views_block:recent_blogs-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/employees/*'

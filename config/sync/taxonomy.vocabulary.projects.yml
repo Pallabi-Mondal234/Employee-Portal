@@ -1,0 +1,15 @@
+uuid: 0e8bfab5-31f2-4259-a852-c6a4a99f79b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy_unique
+third_party_settings:
+  taxonomy_unique:
+    enabled: true
+    message: 'Term "%term" already exists in vocabulary "%vocabulary".'
+name: Projects
+vid: projects
+description: null
+weight: 0
+new_revision: false
