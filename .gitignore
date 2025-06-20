@@ -4,7 +4,7 @@
 
 /web/sites/*/files
 /web/sites/*/private
-
+/web/sites/default/settings.php
 /drush/Commands/contrib/
 /web/core/
 /web/modules/contrib/
