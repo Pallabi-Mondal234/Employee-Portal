@@ -1,0 +1,23 @@
+uuid: 60d19dfe-6f08-4df3-a244-b32e824ae12d
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.skills
+id: taxonomy_term.skills.default
+targetEntityType: taxonomy_term
+bundle: skills
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true
+  status: true

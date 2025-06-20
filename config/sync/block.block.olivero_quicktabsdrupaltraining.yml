@@ -1,0 +1,20 @@
+uuid: be559658-38b4-4d0a-9aba-00c17a107b66
+langcode: en
+status: false
+dependencies:
+  module:
+    - quicktabs
+  theme:
+    - olivero
+id: olivero_quicktabsdrupaltraining
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'quicktabs_block:drupal_training'
+settings:
+  id: 'quicktabs_block:drupal_training'
+  label: 'Recent Projects'
+  label_display: visible
+  provider: quicktabs
+visibility: {  }

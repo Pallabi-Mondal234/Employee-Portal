@@ -1,0 +1,23 @@
+uuid: d1fd9318-f756-4895-bf71-5efc7551b3b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.admin_block
+    - field.storage.block_content.field_add_a_project
+  module:
+    - link
+id: block_content.admin_block.field_add_a_project
+field_name: field_add_a_project
+entity_type: block_content
+bundle: admin_block
+label: 'Add a Project'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

@@ -1,0 +1,19 @@
+uuid: ee9f9b36-1a73-4e01-8f70-c6f1e1756bd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_assigned_employee
+field_name: field_assigned_employee
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

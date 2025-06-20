@@ -1,0 +1,56 @@
+uuid: 18caa92d-a266-494c-965a-3fbf5fb9a03e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.project
+    - field.field.block_content.project.body
+    - field.field.block_content.project.field_customer_name
+    - field.field.block_content.project.field_project_team
+    - field.field.block_content.project.field_start_date
+  module:
+    - datetime
+    - link
+    - text
+id: block_content.project.default
+targetEntityType: block_content
+bundle: project
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_customer_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_project_team:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_start_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

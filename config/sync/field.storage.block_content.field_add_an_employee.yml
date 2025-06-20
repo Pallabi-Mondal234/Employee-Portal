@@ -1,0 +1,19 @@
+uuid: 730486d9-8a17-4bf8-8475-b5a78e8219f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_add_an_employee
+field_name: field_add_an_employee
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,61 @@
+uuid: fd6ac5a5-d853-40e7-8280-06ebcf031285
+langcode: en
+status: true
+dependencies: {  }
+id: drupal_training
+label: 'Project Tab'
+renderer: quick_tabs
+hide_empty_tabs: false
+default_tab: 9999
+options:
+  quick_tabs:
+    ajax: false
+    class: ''
+    style: pamela
+configuration_data:
+  -
+    title: 'Drupal Training'
+    weight: 0
+    type: block_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      block_content:
+        options:
+          bid: 'block_content:0ca7bfaa-262f-4f97-8222-e2f422564f1b'
+          block_title: ''
+          display_title: true
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Drupal Site'
+    weight: 0
+    type: block_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      block_content:
+        options:
+          bid: 'block_content:155d1cbb-05be-4718-9abd-7ec86ac59964'
+          block_title: ''
+          display_title: true
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''

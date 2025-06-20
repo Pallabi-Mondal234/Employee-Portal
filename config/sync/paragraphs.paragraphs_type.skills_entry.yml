@@ -1,0 +1,10 @@
+uuid: f1cc6874-c36d-4146-96bb-c97d802f9e6c
+langcode: en
+status: true
+dependencies: {  }
+id: skills_entry
+label: 'Skills Entry'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

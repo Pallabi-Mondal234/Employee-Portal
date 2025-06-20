@@ -1,0 +1,35 @@
+uuid: e0b56724-6175-440c-86b9-2da98f6fbded
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.skills_entry.field_skills
+    - paragraphs.paragraphs_type.skills_entry
+  module:
+    - inline_entity_form
+id: paragraph.skills_entry.default
+targetEntityType: paragraph
+bundle: skills_entry
+mode: default
+content:
+  field_skills:
+    type: inline_entity_form_complex
+    weight: 0
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

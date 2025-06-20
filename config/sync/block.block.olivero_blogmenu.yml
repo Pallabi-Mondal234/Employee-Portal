@@ -1,0 +1,29 @@
+uuid: c91e0eba-9981-48d4-835c-2c00d5c5d653
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.blog-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_blogmenu
+theme: olivero
+region: sidebar
+weight: -9
+provider: null
+plugin: 'system_menu_block:blog-menu'
+settings:
+  id: 'system_menu_block:blog-menu'
+  label: 'Recent Blogs'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

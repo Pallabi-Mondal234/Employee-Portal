@@ -1,0 +1,19 @@
+uuid: 24ac1d78-fe9f-429d-a346-a5ad89807c3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comments
+    - field.storage.comment.field_homepage
+id: comment.custom_comments.field_homepage
+field_name: field_homepage
+entity_type: comment
+bundle: custom_comments
+label: Homepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

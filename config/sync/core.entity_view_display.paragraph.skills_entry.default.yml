@@ -1,0 +1,21 @@
+uuid: 8bd3f968-1ac6-4fa0-9da8-93b039aa519b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.skills_entry.field_skills
+    - paragraphs.paragraphs_type.skills_entry
+id: paragraph.skills_entry.default
+targetEntityType: paragraph
+bundle: skills_entry
+mode: default
+content:
+  field_skills:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
